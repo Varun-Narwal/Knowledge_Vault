@@ -1,0 +1,27 @@
+# Personal data — never committed
+data/raw/*
+!data/raw/.gitkeep
+*.db
+*.duckdb
+*.kuzu
+
+# Env / secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Output artifacts
+out/
